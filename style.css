@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body , html{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: rgba(147, 133, 133, 0.635);
+}
+.page{
+    padding: 0px 20px;
+}
+.menu{
+    display: flex;
+    justify-content: end;
+    padding: 10px 30px;
+}
+.menu div{
+    margin: 5px;
+    color: white;
+    padding: 7px 10px;
+    background-color: black;
+    border-radius: 80%;
+}
+.text{
+    font-size: 7.5rem;
+    font-weight: 600;
+}
+.menu-2{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+}
+.logo .arrow{
+    padding-right: 15px;
+}
+.mid{
+    height: 500px;
+}
+img{
+    padding-top: 20px;
+    height: 100%;
+    width: 100%;
+    background-size:contain;
+}
+.content{
+    display: flex;
+    border-bottom: 2px solid black;
+    padding:30px 0px;
+}
+.left-content{
+    width: 60%;
+    height: auto;
+    font-weight: 400;
+    font-size: 3rem;
+    border-right: 2px solid black;
+}
+.right-content{
+    margin-left: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.social a{ 
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.main-content{
+    display: flex;
+    height: 260px;
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: 2px solid black ;
+}
+.work1{
+    width: 40%;
+    height: 90%;
+    padding-right:30px;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+}
+.work-part{
+    display: flex;
+}
+.work-part div{
+    margin: 15px;
+    font-size: 20px;
+}
+.box1 , .box3{
+    border-right: 2px solid black;
+}
+
+.work-part:nth-child(1){
+    border-bottom: 2px solid black;
+    margin:0px 25px;
+}
+.work-part:nth-child(2){
+    margin:0px 25px;
+}
+.footer{
+    margin: 10px 0px;
+    font-size: 3rem;
+}
